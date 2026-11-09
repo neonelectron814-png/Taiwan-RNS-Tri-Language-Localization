@@ -1,0 +1,102 @@
+{
+  "systemTitle": "Taiwan-RNS 臺灣居民身分網路系統",
+  "systemSubtitle": "國家級居民網路與數位身分憑證系統",
+  "ministryBadge": "中華民國臺灣數位政府核心基礎設施",
+  "nav": {
+    "dashboard": "系統概覽",
+    "identity": "數位身分",
+    "household": "戶籍登記",
+    "credentials": "可驗證憑證",
+    "verification": "零知識驗證",
+    "admin": "稽核與主控台",
+    "settings": "系統設定",
+    "qaChecklist": "語言檢核與驗證",
+    "more": "更多項目",
+    "menu": "功能選單",
+    "close": "關閉選單",
+    "androidBar": "行動裝置導覽"
+  },
+  "languages": {
+    "selector": "選擇介面語言",
+    "en": "English",
+    "zhTW": "繁體中文",
+    "nanTW": "台灣台語"
+  },
+  "actions": {
+    "search": "搜尋",
+    "filter": "篩選條件",
+    "submit": "遞交申請案",
+    "save": "儲存變更",
+    "cancel": "取消",
+    "close": "關閉",
+    "confirm": "確認執行",
+    "delete": "刪除",
+    "edit": "編輯資料",
+    "viewDetails": "檢視詳細內容",
+    "export": "匯出資料",
+    "refresh": "重新載入",
+    "copy": "複製至剪貼簿",
+    "copied": "已成功複製",
+    "verify": "立即查驗",
+    "generateProof": "產生零知識證明",
+    "requestCredential": "申領新憑證",
+    "reset": "重設表單",
+    "back": "返回上一頁"
+  },
+  "status": {
+    "active": "生效中",
+    "verified": "已通過驗證",
+    "pending": "審核處理中",
+    "revoked": "已廢止撤銷",
+    "expired": "憑證已逾期",
+    "valid": "密碼學驗證有效",
+    "success": "執行成功",
+    "failed": "查驗未通過",
+    "processing": "演算中..."
+  },
+  "notifications": {
+    "languageChanged": "系統顯示語言已切換為「繁體中文」。",
+    "proofGenerated": "零知識加密證明已成功產生。",
+    "proofVerified": "零知識密碼學查驗核可，身分資格屬實且未洩漏個人隱私。",
+    "formSaved": "身分登記資料已安全儲存至數位身分硬體安全區。",
+    "credentialIssued": "新型可驗證數位憑證已完成簽署並發行至皮夾。",
+    "householdMoved": "戶籍遷徙登記申請已送交民政戶政事務所審理。"
+  },
+  "terms": {
+    "digitalIdentity": "數位身分",
+    "householdRegistration": "戶籍登記",
+    "verifiableCredentials": "可驗證憑證",
+    "identityVerification": "身分驗證",
+    "privacyProtection": "隱私保護",
+    "zeroKnowledgeProof": "零知識證明",
+    "governmentOrganization": "政府機關",
+    "decentralizedIdentifier": "分散式身分識別碼 (DID)",
+    "publicLedger": "國家信任登錄冊",
+    "selectiveDisclosure": "選擇性揭露技術"
+  },
+  "footer": {
+    "copyright": "© 2026 Taiwan-RNS 臺灣居民身分網路系統 · 版權所有",
+    "compliance": "依據我國《電子簽章法》與《個人資料保護法》最高安全等級建置",
+    "version": "發行版本 v4.2 · 零知識密碼學認證引擎"
+  },
+  "sidebar": {
+    "dockLeft": "靠左側停駐",
+    "dockRight": "靠右側停駐",
+    "dragToDock": "拖曳側邊欄至左側或右側停駐",
+    "swapPosition": "切換側邊欄左右位置 (左 ⇄ 右)",
+    "reorder": "拖曳排序",
+    "dragToReorder": "拖曳以調整項目順序",
+    "dropLeft": "釋放以停駐於左側",
+    "dropRight": "釋放以停駐於右側",
+    "subtitles": {
+      "dashboard": "即時信任狀態與統計",
+      "identity": "DID 去中心化數位身分",
+      "household": "法定全戶登記與謄本",
+      "credentials": "W3C 密碼學憑證皮夾",
+      "verification": "Groth16 零知識隱私查驗",
+      "admin": "國家信任節點與稽核紀錄",
+      "settings": "語系切換與金鑰管理",
+      "qa": "三語系品質查核對照"
+    }
+  }
+}

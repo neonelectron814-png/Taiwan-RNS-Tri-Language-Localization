@@ -1,0 +1,80 @@
+{
+  "welcomeTitle": "Welcome back, {{name}}",
+  "welcomeSubtitle": "Your National Digital Identity & Resident Credentials are fully synchronized with the National Trust Registry.",
+  "citizenStatus": "National Identity Active · Level 4 Assurance",
+  "stats": {
+    "verifiedCitizens": "Verified Residents",
+    "verifiedCitizensSub": "Registered with decentralized digital identity",
+    "activeCredentials": "Active Credentials",
+    "activeCredentialsSub": "W3C compliant verifiable credentials issued",
+    "dailyZkpVerifications": "Daily ZKP Queries",
+    "dailyZkpVerificationsSub": "Zero-knowledge privacy-preserving verifications",
+    "cryptographicUptime": "Trust Layer Availability",
+    "cryptographicUptimeSub": "Cryptographic nodes operating normally"
+  },
+  "chart": {
+    "title": "Verification Throughput & Zero-Knowledge Proof Volume",
+    "subtitle": "Monthly comparison of privacy-preserving ZKP proofs versus standard credential presentations",
+    "legendZkp": "Zero-Knowledge Proofs (Privacy-Preserved)",
+    "legendStandard": "Standard Verifiable Presentations",
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "zkpShare": "ZKP Share of Total Verifications"
+  },
+  "recentActivity": {
+    "title": "Recent Verification & Audit Log",
+    "subtitle": "Real-time verification access events requested by authorized public and private institutions",
+    "colTime": "Timestamp",
+    "colRequester": "Requesting Agency / Relying Party",
+    "colCredential": "Presented Credential",
+    "colMethod": "Protocol / Method",
+    "colStatus": "Result",
+    "activities": {
+      "act1": {
+        "agency": "Taipei City Public Transportation Authority",
+        "credential": "Citizen Digital ID · Age 18+ Qualification",
+        "method": "ZKP Selective Disclosure",
+        "status": "Verified Valid"
+      },
+      "act2": {
+        "agency": "National Health Insurance Administration",
+        "credential": "NHI Health Insurance Verifiable Credential",
+        "method": "Cryptographic ECDSA Signature",
+        "status": "Verified Valid"
+      },
+      "act3": {
+        "agency": "Land Administration & Civil Affairs Office",
+        "credential": "Household Registration Digital Certificate",
+        "method": "BBS+ Selective Attribute Proof",
+        "status": "Verified Valid"
+      },
+      "act4": {
+        "agency": "Bank of Taiwan e-Banking Security",
+        "credential": "Level 4 Resident Digital Signature",
+        "method": "Ed25519 Hardware Binding",
+        "status": "Verified Valid"
+      }
+    }
+  },
+  "quickActions": {
+    "title": "Citizen Quick Actions",
+    "generateProofTitle": "Generate ZKP Proof",
+    "generateProofDesc": "Prove age or residency criteria without disclosing raw sensitive data",
+    "viewHouseholdTitle": "View Household Transcript",
+    "viewHouseholdDesc": "Access and export official household registry certified records",
+    "requestCredentialTitle": "Request Credential",
+    "requestCredentialDesc": "Apply for new verifiable licenses and governmental certificates"
+  }
+}

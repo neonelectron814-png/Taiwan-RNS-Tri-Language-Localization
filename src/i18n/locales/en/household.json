@@ -1,0 +1,49 @@
+{
+  "title": "Household Registration & Registry Certificate",
+  "subtitle": "Official household registry, family members, residential address, and transfer applications.",
+  "householdCard": {
+    "badge": "Official Certified Transcript",
+    "householdNumber": "Household Code",
+    "householdType": "Household Category",
+    "householdTypeVal": "Ordinary Living Household",
+    "headOfHousehold": "Head of Household",
+    "registrationOffice": "Civil Affairs Office",
+    "registrationOfficeVal": "Da'an District Household Registration Office, Taipei City",
+    "address": "Registered Residence Address",
+    "addressVal": "3F, No. 120, Sec. 3, Xinyi Rd., Da'an Dist., Taipei City",
+    "certifiedDate": "Certified Transcript Timestamp"
+  },
+  "membersTitle": "Registered Household Members",
+  "membersSubtitle": "Legal kinship relationships certified under the Household Registration Act.",
+  "memberCols": {
+    "relation": "Kinship Relation",
+    "name": "Full Name",
+    "nationalId": "National ID Number",
+    "birthDate": "Date of Birth",
+    "status": "Vital Status"
+  },
+  "members": {
+    "head": "Head of Household (Self)",
+    "father": "Father",
+    "mother": "Mother",
+    "sister": "Sister",
+    "activeRecord": "Registered & Active"
+  },
+  "transferTitle": "Household Transfer & Residence Move Application",
+  "transferSubtitle": "Apply online for residential relocation with immediate cryptographic signature verification.",
+  "transferForm": {
+    "moveType": "Application Category",
+    "moveTypeIn": "Residence Move-in / Address Update",
+    "moveTypeOut": "Establish Independent Household",
+    "newCity": "Destination Municipality",
+    "newDistrict": "Destination District",
+    "newAddress": "New Street Address",
+    "moveReason": "Reason for Relocation",
+    "moveReasonJob": "Employment or Work Assignment",
+    "moveReasonPurchase": "New Property Acquisition for Residence",
+    "moveReasonFamily": "Family Cohabitation and Care",
+    "effectiveDate": "Requested Effective Date",
+    "submitBtn": "Sign with Resident Key & Submit",
+    "successNotice": "Household relocation application #TW-HH-2026-9042 received. Under review by Civil Affairs Bureau."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Taiwan-RNS | 臺灣居民身分網路系統",
+  "description": "Taiwan Resident Network System for digital identity, household registration, and zero-knowledge verifiable credentials with three-language localization in English, Traditional Chinese, and Taiwanese Hokkien.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

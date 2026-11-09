@@ -1,0 +1,50 @@
+{
+  "title": "Administrative & Cryptographic Audit Console",
+  "subtitle": "Oversight dashboard for authorized ministries, cryptographic nodes, and immutable verification trails.",
+  "metrics": {
+    "activeNodes": "Active Trust Nodes",
+    "activeNodesSub": "Decentralized consensus cluster across Taiwan",
+    "verificationLatency": "Mean Verification Latency",
+    "verificationLatencySub": "Sub-second zero-knowledge proof response",
+    "dailyThroughput": "Daily Transactions",
+    "dailyThroughputSub": "Total verification operations today",
+    "securityAlerts": "Security Incidents",
+    "securityAlertsSub": "Zero anomalies or breaches detected"
+  },
+  "auditTable": {
+    "title": "National Trust Registry Real-time Audit Ledger",
+    "subtitle": "Immutable tamper-evident cryptographic log of all administrative and reliance checks.",
+    "filterAgency": "Filter by Authority",
+    "filterAll": "All Ministries & Agencies",
+    "cols": {
+      "timestamp": "Timestamp",
+      "agency": "Supervising Authority",
+      "eventType": "Event / Operation",
+      "proofStandard": "Cryptographic Standard",
+      "auditHash": "Merkle Tree Hash",
+      "status": "Integrity"
+    },
+    "agencies": {
+      "moi": "Ministry of the Interior",
+      "moda": "Ministry of Digital Affairs",
+      "mohw": "Ministry of Health and Welfare",
+      "motc": "Ministry of Transportation and Communications",
+      "mof": "Ministry of Finance"
+    },
+    "events": {
+      "ev1": "Root Certificate Revocation List Inspection",
+      "ev2": "National ID Level 4 Attestation Refresh",
+      "ev3": "Household Move-in Cross-Bureau Synchronization",
+      "ev4": "Zero-Knowledge Circuit Public Parameter Attestation"
+    }
+  },
+  "nodeManagement": {
+    "title": "Trust Network Node Health & Key Rotation Status",
+    "subtitle": "Real-time consensus state of inter-governmental verification clusters.",
+    "nodeTaipei": "Taipei Primary Core Node #1",
+    "nodeTaichung": "Taichung Regional Cluster Node #2",
+    "nodeKaohsiung": "Kaohsiung Disaster Recovery Node #3",
+    "statusSync": "Synchronized & Active",
+    "keyRotation": "Next Scheduled Key Rotation: 2026-12-31"
+  }
+}

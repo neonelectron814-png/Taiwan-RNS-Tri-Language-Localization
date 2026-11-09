@@ -1,0 +1,80 @@
+{
+  "welcomeTitle": "歡迎閣來，{{name}}（Lí-hó）",
+  "welcomeSubtitle": "恁的國家級數位身分佮各項住民登記憑證攏佮國家信任登錄冊保持完全同步兼照常有效。",
+  "citizenStatus": "國家身分登記照常有效 · 第四級安全保證機制",
+  "stats": {
+    "verifiedCitizens": "已登錄數位居民",
+    "verifiedCitizensSub": "已經結縳分散式數位身分 (DID)",
+    "activeCredentials": "現役可驗證憑證",
+    "activeCredentialsSub": "合符 W3C 規範之數位憑證發行總數",
+    "dailyZkpVerifications": "逐日零知識查驗量",
+    "dailyZkpVerificationsSub": "零知識隱私無外洩查驗回數",
+    "cryptographicUptime": "信任網路在線率",
+    "cryptographicUptimeSub": "全臺密碼學驗證節點正常運行"
+  },
+  "chart": {
+    "title": "查驗流通量佮零知識證明成長趨勢",
+    "subtitle": "逐月日隱私保護型零知識證明佮標準數位憑證出示之對比統計",
+    "legendZkp": "零知識證明（完全保護個人隱私）",
+    "legendStandard": "標準憑證出示查驗",
+    "months": {
+      "jan": "一月",
+      "feb": "二月",
+      "mar": "三月",
+      "apr": "四月",
+      "may": "五月",
+      "jun": "六月",
+      "jul": "七月",
+      "aug": "八月",
+      "sep": "九月",
+      "oct": "十月",
+      "nov": "十一月",
+      "dec": "十二月"
+    },
+    "zkpShare": "零知識證明佔總查驗比例"
+  },
+  "recentActivity": {
+    "title": "這陣查驗佮安全稽核紀錄",
+    "subtitle": "經過公權力機關透過國家信任閘道提出之身分查核即時日誌",
+    "colTime": "時間戳印",
+    "colRequester": "查驗請求機關 / 倚賴方",
+    "colCredential": "受查驗出示憑證",
+    "colMethod": "查驗技術協定",
+    "colStatus": "查驗結果",
+    "activities": {
+      "act1": {
+        "agency": "臺北市政府交通局大眾運輸處",
+        "credential": "國民數位身分證 · 年歲滿18歲證明",
+        "method": "零知識選擇性揭露證明",
+        "status": "查驗屬實有效"
+      },
+      "act2": {
+        "agency": "衛生福利部中央健康保險署",
+        "credential": "全民健康保險數位憑證 (NHI)",
+        "method": "ECDSA 密碼學數位簽名",
+        "status": "查驗屬實有效"
+      },
+      "act3": {
+        "agency": "地政佮戶政聯合行政事務所",
+        "credential": "戶口登記數位謄本證明書",
+        "method": "BBS+ 選擇性屬性特徵證明",
+        "status": "查驗屬實有效"
+      },
+      "act4": {
+        "agency": "臺灣銀行電子身分認證安全中心",
+        "credential": "第四級居民自然人數位簽名",
+        "method": "Ed25519 硬體安全模組簽名",
+        "status": "查驗屬實有效"
+      }
+    }
+  },
+  "quickActions": {
+    "title": "居民常用快捷服務",
+    "generateProofTitle": "新起造零知識證明",
+    "generateProofDesc": "即時出示年歲、戶籍地抑是國民資格證明，免提供原始私人生份",
+    "viewHouseholdTitle": "查閱戶口謄本",
+    "viewHouseholdDesc": "線上提調並檢驗具備國家防偽數位簽章之完整全戶或個人謄本",
+    "requestCredentialTitle": "申領數位憑證",
+    "requestCredentialDesc": "在線辦理各項政府機關發行之專業資格佮法定證明憑證"
+  }
+}

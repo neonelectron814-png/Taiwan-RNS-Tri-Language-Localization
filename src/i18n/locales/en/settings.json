@@ -1,0 +1,26 @@
+{
+  "title": "System Settings & Security Preferences",
+  "subtitle": "Configure interface localization, cryptographic key stores, and accessibility options.",
+  "languageSection": {
+    "title": "Language & Localization (i18n)",
+    "description": "Choose your preferred official language. Switches immediately across all modules without page reload.",
+    "current": "Currently active language",
+    "enDesc": "English · International standard for overseas reliance and verification",
+    "zhTWDesc": "繁體中文 · 臺灣官方標準語文與政府公文書格式",
+    "nanTWDesc": "台灣台語 · 臺灣在地母語，採用教育部推薦臺灣字與臺灣台語常用羅馬字"
+  },
+  "themeSection": {
+    "title": "Display Theme & Appearance",
+    "description": "Switch between Light, Dark, or System high-contrast mode.",
+    "light": "Clean Government Light",
+    "dark": "High-Contrast Dark",
+    "system": "Follow Operating System"
+  },
+  "securitySection": {
+    "title": "Cryptographic Key Management & Enclave",
+    "description": "Hardware-backed asymmetric key pairs stored in resident device.",
+    "keyType": "Asymmetric Key Pair: Ed25519-2026",
+    "exportKeys": "Backup Sovereign Key Bundle",
+    "keysBackedUp": "Cryptographic key bundle exported to encrypted file."
+  }
+}

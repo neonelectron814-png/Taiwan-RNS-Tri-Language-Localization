@@ -1,0 +1,102 @@
+{
+  "systemTitle": "Taiwan-RNS 臺灣居民身分網路系統",
+  "systemSubtitle": "國家級居民網路佮數位身分憑證系統 (Tâi-oân Kū-bîn Sin-hun Bang-lō͘ Hē-thóng)",
+  "ministryBadge": "中華民國臺灣數位政府核心基礎設施",
+  "nav": {
+    "dashboard": "系統總覽",
+    "identity": "數位身分",
+    "household": "戶口登記",
+    "credentials": "可驗證憑證",
+    "verification": "零知識驗證",
+    "admin": "稽核佮主控台",
+    "settings": "系統設訂",
+    "qaChecklist": "語言檢核佮查驗",
+    "more": "閣有選單 (Koh-ū)",
+    "menu": "功能選單",
+    "close": "關閉選單",
+    "androidBar": "行動電話導覽"
+  },
+  "languages": {
+    "selector": "揀選介面語言",
+    "en": "English",
+    "zhTW": "繁體中文",
+    "nanTW": "台灣台語"
+  },
+  "actions": {
+    "search": "揣尋",
+    "filter": "篩選條件",
+    "submit": "送出申請案",
+    "save": "保留更動",
+    "cancel": "取消",
+    "close": "關閉",
+    "confirm": "確定執行",
+    "delete": "共提掉",
+    "edit": "改寫資料",
+    "viewDetails": "看詳細內容",
+    "export": "匯出資料",
+    "refresh": "重新讀入",
+    "copy": "抄落去剪貼簿",
+    "copied": "已經抄好矣",
+    "verify": "隨進行查驗",
+    "generateProof": "新起造零知識證明",
+    "requestCredential": "申領新憑證",
+    "reset": "重設表單",
+    "back": "轉去上一頁"
+  },
+  "status": {
+    "active": "照常有效",
+    "verified": "已經驗證通過",
+    "pending": "審核處理中",
+    "revoked": "已經廢止撤銷",
+    "expired": "憑證已經過期",
+    "valid": "密碼學檢驗有效",
+    "success": "成功好勢",
+    "failed": "查驗無通過",
+    "processing": "算術演算中..."
+  },
+  "notifications": {
+    "languageChanged": "系統顯示語言已經切換做「台灣台語 (Tâi-gí)」。",
+    "proofGenerated": "零知識加密證明已經成功起造完成。",
+    "proofVerified": "零知識密碼學查驗核可，身分資格屬實，兼無洩漏私人生份隱私。",
+    "formSaved": "身分登記資料已經妥當存入硬體安全區。",
+    "credentialIssued": "新型可驗證數位憑證已經簽名發行至皮夾。",
+    "householdMoved": "戶口遷徙登記申請案已經送去戶政事務所審理辦理。"
+  },
+  "terms": {
+    "digitalIdentity": "數位身分 (Sò͘-ūi Sin-hun)",
+    "householdRegistration": "戶口登記 (Hō͘-kháu Teng-kì)",
+    "verifiableCredentials": "可驗證憑證 (Khó Giām-chèng Pîn-chèng)",
+    "identityVerification": "身分驗證 (Sin-hun Giām-chèng)",
+    "privacyProtection": "隱私保護 (Ín-su Pó-hō͘)",
+    "zeroKnowledgeProof": "零知識證明 (Lêng-ti-sek Chèng-bêng)",
+    "governmentOrganization": "政府機關 (Chèng-hú Ki-koan)",
+    "decentralizedIdentifier": "分散式身分識別碼 (DID)",
+    "publicLedger": "國家級信任登錄冊",
+    "selectiveDisclosure": "選擇性揭露技術"
+  },
+  "footer": {
+    "copyright": "© 2026 Taiwan-RNS 臺灣居民身分網路系統 · 版權所有",
+    "compliance": "依照臺灣《電子簽章法》佮《個人資料保護法》最高安全標準起造",
+    "version": "發行版本 v4.2 · 零知識密碼學認證引擎"
+  },
+  "sidebar": {
+    "dockLeft": "靠倒手停駐 (Tò-chhiú)",
+    "dockRight": "靠正手停駐 (Chiàⁿ-chhiú)",
+    "dragToDock": "拖徙側邊欄去倒手抑正手停駐",
+    "swapPosition": "倒手正手換位 (Tò ⇄ Chiàⁿ)",
+    "reorder": "拖徙重排",
+    "dragToReorder": "拖徙調動項目順序",
+    "dropLeft": "放開停駐佇倒手邊",
+    "dropRight": "放開停駐佇正手邊",
+    "subtitles": {
+      "dashboard": "即時信任狀態佮統計 (Chē-sī)",
+      "identity": "DID 去中心化數位身分",
+      "household": "全戶法定戶口登記佮謄本",
+      "credentials": "W3C 密碼學憑證皮夾",
+      "verification": "Groth16 零知識隱私查驗",
+      "admin": "國家級信任節點佮稽核紀錄",
+      "settings": "語言切換佮金鑰管理",
+      "qa": "三語系品質查核對照"
+    }
+  }
+}

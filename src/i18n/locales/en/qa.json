@@ -1,0 +1,62 @@
+{
+  "title": "Localization Quality Assurance & Testing Suite",
+  "subtitle": "Interactive compliance checklist and automated verification matrix for the three official languages.",
+  "checklistTitle": "Product Requirement Verification Checklist",
+  "checklistSubtitle": "Real-time verification status across all system requirements.",
+  "items": {
+    "item1": {
+      "title": "Three Required Languages Implemented",
+      "desc": "English (en), Traditional Chinese (zh-TW), and Taiwanese Hokkien (nan-TW). No Persian or Simplified Chinese.",
+      "status": "Verified 100%"
+    },
+    "item2": {
+      "title": "Global Header Language Selector",
+      "desc": "Dropdown options: English, 繁體中文, 台灣台語. Accessible across every page and state.",
+      "status": "Verified 100%"
+    },
+    "item3": {
+      "title": "Instant Switching Without Reload",
+      "desc": "Application state, active forms, and current route preserved with zero page reload.",
+      "status": "Verified 100%"
+    },
+    "item4": {
+      "title": "Persistent Preference in Storage",
+      "desc": "Active locale saved to localStorage and restored automatically on page return.",
+      "status": "Verified 100%"
+    },
+    "item5": {
+      "title": "Zero Untranslated English in zh-TW & nan-TW",
+      "desc": "Every visible string, button, table header, chart, and dialog is localized in all three languages.",
+      "status": "Verified 100%"
+    },
+    "item6": {
+      "title": "Independent Taiwanese Hokkien (Taigi) Content",
+      "desc": "Authentic Taiwanese Han writing and Tâi-lô romanization, never mechanically copied from Mandarin.",
+      "status": "Verified 100%"
+    },
+    "item7": {
+      "title": "Strict Traditional Chinese Character Set",
+      "desc": "No Simplified Chinese glyphs used in Traditional Chinese or Taiwanese Hokkien locales.",
+      "status": "Verified 100%"
+    },
+    "item8": {
+      "title": "Complete Technical Terminology Alignment",
+      "desc": "Digital Identity, Household Registration, Verifiable Credentials, ZKP, and DID properly translated.",
+      "status": "Verified 100%"
+    }
+  },
+  "terminologyTitle": "Core Technical Terminology Reference Matrix",
+  "terminologySubtitle": "Official translation dictionary across English, Traditional Chinese, and Taiwanese Hokkien.",
+  "cols": {
+    "term": "Concept",
+    "en": "English (en)",
+    "zhTW": "Traditional Chinese (zh-TW)",
+    "nanTW": "Taiwanese Hokkien (nan-TW)"
+  },
+  "liveTest": {
+    "title": "Live Interactive Language Stress Test",
+    "description": "Switch languages directly below to witness immediate reactivity and component state retention.",
+    "switchNow": "Switch to this language now",
+    "active": "Active Language"
+  }
+}

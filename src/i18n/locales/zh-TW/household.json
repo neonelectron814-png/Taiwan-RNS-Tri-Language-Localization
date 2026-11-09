@@ -1,0 +1,49 @@
+{
+  "title": "戶籍登記與戶籍謄本證明",
+  "subtitle": "國家官方戶籍登錄資料、現住全戶人口名冊、戶籍地與線上遷徙登記辦理。",
+  "householdCard": {
+    "badge": "官方防偽驗證電子謄本",
+    "householdNumber": "戶號",
+    "householdType": "戶別",
+    "householdTypeVal": "共同生活戶（普通住戶）",
+    "headOfHousehold": "戶長",
+    "registrationOffice": "管轄戶政事務所",
+    "registrationOfficeVal": "臺北市大安區戶政事務所",
+    "address": "法定戶籍地址",
+    "addressVal": "臺北市大安區信義路三段 120 號 3 樓",
+    "certifiedDate": "謄本電子驗證簽發時間"
+  },
+  "membersTitle": "全戶現住人口登記名冊",
+  "membersSubtitle": "依據《戶籍法》及《民法》親屬編法定登載之合法親屬關係紀錄。",
+  "memberCols": {
+    "relation": "稱謂關係",
+    "name": "國民姓名",
+    "nationalId": "國民身分證統一編號",
+    "birthDate": "出生年月日",
+    "status": "記事與現住狀態"
+  },
+  "members": {
+    "head": "戶長（本人）",
+    "father": "父",
+    "mother": "母",
+    "sister": "妹",
+    "activeRecord": "現住人口 · 設籍正常"
+  },
+  "transferTitle": "戶籍遷徙與住址變更線上申辦",
+  "transferSubtitle": "無須親赴戶政事務所臨櫃排隊，直接使用數位身分憑證辦理戶籍遷入遷出登記。",
+  "transferForm": {
+    "moveType": "申請登記事項",
+    "moveTypeIn": "遷入登記（住址變更登記）",
+    "moveTypeOut": "創立新戶 / 分戶獨立登記",
+    "newCity": "目標遷入縣市",
+    "newDistrict": "目標行政區",
+    "newAddress": "遷入詳細路街門牌",
+    "moveReason": "遷徙主要事由",
+    "moveReasonJob": "因工作就業職務調派",
+    "moveReasonPurchase": "購置自有住宅自住",
+    "moveReasonFamily": "家庭照護與隨同親屬同住",
+    "effectiveDate": "預定生效日期",
+    "submitBtn": "以自然人憑證數位簽署並送件",
+    "successNotice": "戶籍遷徙登記案號 #TW-HH-2026-9042 已受理，目前送交民政戶政機關核定中。"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Digital Identity & Decentralized Identifier (DID)",
+  "subtitle": "Manage your sovereign cryptographic identity, secure key pairs, and personal attribute disclosure rules.",
+  "didCard": {
+    "badge": "Cryptographic DID Document",
+    "didLabel": "Decentralized Identifier",
+    "holder": "Identity Subject",
+    "algorithm": "Signing Cryptosystem",
+    "status": "Binding Status",
+    "statusActive": "Active & Hardware Protected",
+    "issuedAt": "Initial Registration",
+    "qrScanNotice": "Scan to inspect public key on the National Trust Registry",
+    "showQr": "Show Public QR Code",
+    "hideQr": "Hide QR Code",
+    "copyDid": "Copy DID URI"
+  },
+  "attributesTitle": "Identity Claims & Profile Attributes",
+  "attributesSubtitle": "Official resident identity data synchronized with the Department of Household Registration.",
+  "fields": {
+    "name": "Full Legal Name",
+    "englishName": "Romanized / English Name",
+    "nationalId": "National ID Number",
+    "birthDate": "Date of Birth",
+    "gender": "Gender",
+    "genderFemale": "Female",
+    "genderMale": "Male",
+    "birthPlace": "Birthplace",
+    "taipeiCity": "Taipei City, Taiwan",
+    "address": "Registered Residence Address",
+    "phone": "Contact Phone Number",
+    "email": "Official Notification Email"
+  },
+  "privacyTitle": "Selective Disclosure & Privacy Protection Shields",
+  "privacySubtitle": "Control what third-party relying applications can view when verifying your identity.",
+  "privacyToggles": {
+    "maskId": "Mask National ID Number",
+    "maskIdDesc": "Replace full identification with partial hash (e.g. A22*****89) during standard queries",
+    "maskBirth": "Protect Exact Date of Birth",
+    "maskBirthDesc": "Present only age threshold proofs (e.g. Age >= 18) via Zero-Knowledge circuit",
+    "maskAddress": "Obfuscate Street Address",
+    "maskAddressDesc": "Expose only City and District level jurisdiction without revealing door number"
+  },
+  "editProfile": "Update Identity Claims",
+  "saveSuccess": "Identity claim updates successfully signed by secure hardware enclave.",
+  "validation": {
+    "nameRequired": "Full legal name cannot be blank.",
+    "nationalIdInvalid": "Invalid National ID format. Must be 1 letter followed by 9 digits."
+  }
+}

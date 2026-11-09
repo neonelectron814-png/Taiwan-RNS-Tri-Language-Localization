@@ -1,0 +1,50 @@
+{
+  "title": "主管機關管理佮密碼學稽核主控台",
+  "subtitle": "提供中央政府部會查核國家信任登錄冊、密碼學節點運行狀態佮防竄改稽核日誌。",
+  "metrics": {
+    "activeNodes": "現役信任骨幹節點",
+    "activeNodesSub": "全臺分散式共識節點叢集",
+    "verificationLatency": "平均密碼學查驗延遲",
+    "verificationLatencySub": "毫秒級零知識橢圓曲線快速運算",
+    "dailyThroughput": "全臺單日總流通量",
+    "dailyThroughputSub": "今仔日總計完成身分驗證作業筆數",
+    "securityAlerts": "資安異常佮通報事件",
+    "securityAlertsSub": "維持零資安外洩通報優良紀錄"
+  },
+  "auditTable": {
+    "title": "國家信任登錄冊即時稽核帳本",
+    "subtitle": "所有行政發行、身分查驗佮證明出示之不可竄改密碼學即時稽核紀錄。",
+    "filterAgency": "照主管機關篩選",
+    "filterAll": "全部政府部會機關",
+    "cols": {
+      "timestamp": "時間戳印",
+      "agency": "主管監理機關",
+      "eventType": "查核事件 / 操作項目",
+      "proofStandard": "密碼學標準協定",
+      "auditHash": "默克爾樹稽核雜湊",
+      "status": "完整性校驗"
+    },
+    "agencies": {
+      "moi": "中華民國內政部",
+      "moda": "數位發展部",
+      "mohw": "衛生福利部",
+      "motc": "交通部",
+      "mof": "財政部"
+    },
+    "events": {
+      "ev1": "根憑證撤銷清冊 (CRL) 週期性同步巡檢",
+      "ev2": "第四級國民數位身分簽名公鑰重新認證",
+      "ev3": "跨縣市戶政事務所戶口遷徙連線稽核",
+      "ev4": "零知識證明公開參數 (CRS) 密碼學見證"
+    }
+  },
+  "nodeManagement": {
+    "title": "政府骨幹節點健全度佮金鑰輪替",
+    "subtitle": "中央機關跨單位分散式驗證叢集即時共識狀態佮安全參數。",
+    "nodeTaipei": "臺北主核心節點 #1",
+    "nodeTaichung": "臺中區域備援節點 #2",
+    "nodeKaohsiung": "高雄異地災難備援節點 #3",
+    "statusSync": "同步完成兼簽名正常",
+    "keyRotation": "下次排定金鑰輪替日：2026-12-31"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "數位身分與分散式身分識別碼 (DID)",
+  "subtitle": "管理您的主權型密碼學身分、晶片金鑰對以及個人資料選擇性揭露規則。",
+  "didCard": {
+    "badge": "密碼學 DID 文件規格",
+    "didLabel": "分散式身分識別碼",
+    "holder": "身分持有人",
+    "algorithm": "簽署密碼系統",
+    "status": "憑證綁定狀態",
+    "statusActive": "生效中 · 受硬體安全晶片保護",
+    "issuedAt": "最初登記註冊日",
+    "qrScanNotice": "掃描 QR Code 即可於國家信任登錄冊查核公鑰",
+    "showQr": "顯示公開 QR Code",
+    "hideQr": "隱藏 QR Code",
+    "copyDid": "複製 DID 統一識別碼"
+  },
+  "attributesTitle": "個人身分屬性與官方登記事項",
+  "attributesSubtitle": "本項資料與內政部戶政司國家戶政資料庫同步並獲數位簽章認證。",
+  "fields": {
+    "name": "法定中文姓名",
+    "englishName": "羅馬外文姓名",
+    "nationalId": "身分證統一編號",
+    "birthDate": "出生年月日",
+    "gender": "法定性別",
+    "genderFemale": "女性",
+    "genderMale": "男性",
+    "birthPlace": "出生地",
+    "taipeiCity": "臺灣臺北市",
+    "address": "戶籍詳細地址",
+    "phone": "聯絡行動電話",
+    "email": "官方通知電子信箱"
+  },
+  "privacyTitle": "選擇性揭露技術與隱私防護罩",
+  "privacySubtitle": "細緻設定外部單位查驗身分時可查閱之資料範圍，守護自主隱私。",
+  "privacyToggles": {
+    "maskId": "遮罩身分證統一編號",
+    "maskIdDesc": "向常規服務出示時以加密雜湊遮罩（如 A22*****89）替代明文",
+    "maskBirth": "保護確切出生年月日",
+    "maskBirthDesc": "僅透過零知識證明電路出具符合特定年齡（如滿18或20歲）之數學證明",
+    "maskAddress": "模糊化門牌街道細部地址",
+    "maskAddressDesc": "對外僅揭露縣市與行政區層級，不洩漏實際巷弄門牌"
+  },
+  "editProfile": "更新身分宣告資料",
+  "saveSuccess": "身分資料異動已完成硬體晶片數位簽名並妥善保存。",
+  "validation": {
+    "nameRequired": "中文法定姓名為必填項目，不可留空。",
+    "nationalIdInvalid": "身分證字號格式不正確，需為 1 碼英文字母與 9 碼數字。"
+  }
+}

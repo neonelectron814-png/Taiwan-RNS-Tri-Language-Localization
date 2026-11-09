@@ -1,0 +1,43 @@
+{
+  "title": "Zero-Knowledge Proof (ZKP) Verification Gateway",
+  "subtitle": "Cryptographically prove predicates (age, residency, citizenship) without revealing sensitive underlying personal data.",
+  "zkpExplanationTitle": "How Zero-Knowledge Proofs Protect Citizen Privacy",
+  "zkpExplanationBody": "Zero-Knowledge Proofs allow you to mathematically prove that a statement is true (such as 'I am over 18 years old' or 'I am registered in Taipei City') without disclosing your birthdate, exact address, or national ID number. Relying parties receive verifiable mathematical certainty with zero privacy leakage.",
+  "zkpScenarios": {
+    "s1": {
+      "name": "Age Gate Verification (18+ / 20+)",
+      "predicate": "Claim: BirthDate <= CurrentDate - 18 Years",
+      "hiddenData": "Exact Birthday (Year, Month, Day) remains 100% hidden"
+    },
+    "s2": {
+      "name": "Municipality Resident Qualification",
+      "predicate": "Claim: ResidentCity == 'Taipei City'",
+      "hiddenData": "Street address, alley, and apartment number remain 100% hidden"
+    },
+    "s3": {
+      "name": "Constitutional Voting Eligibility",
+      "predicate": "Claim: ROC Citizenship == True AND Age >= 20",
+      "hiddenData": "National ID Number and home address remain 100% hidden"
+    }
+  },
+  "generator": {
+    "title": "Interactive ZKP Cryptographic Generator",
+    "selectScenario": "Select Statement Predicate to Prove",
+    "proverKey": "Prover Key Enclave: Secure Resident TPM",
+    "circuitType": "Circuit Engine: Groth16 zk-SNARK / BN254 Curve",
+    "generateBtn": "Compute & Generate Proof (π)",
+    "generatedProofHeader": "Cryptographic Proof Commitment",
+    "piA": "Proof π_a Vector",
+    "piB": "Proof π_b Vector",
+    "piC": "Proof π_c Vector",
+    "publicSignals": "Public Signals (Only Publicly Visible Info)"
+  },
+  "verifier": {
+    "title": "Relying Party Verifier Console",
+    "verifyBtn": "Verify ZKP Cryptographic Proof",
+    "verificationResult": "Verification Result",
+    "validMathProof": "Mathematical verification succeeded! The statement is mathematically true and no personal data was leaked.",
+    "dialogTitle": "Proof Verification Confirmed",
+    "dialogBody": "The cryptographic proof has been verified by the zero-knowledge elliptic curve verifier. Audit log recorded."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "systemTitle": "Taiwan-RNS",
+  "systemSubtitle": "National Resident Network & Digital Identity System",
+  "ministryBadge": "Digital Government Infrastructure of Taiwan",
+  "nav": {
+    "dashboard": "Overview",
+    "identity": "Digital Identity",
+    "household": "Household Registration",
+    "credentials": "Verifiable Credentials",
+    "verification": "ZKP Verification",
+    "admin": "Audit & Console",
+    "settings": "Settings",
+    "qaChecklist": "Language Testing QA",
+    "more": "More",
+    "menu": "Menu",
+    "close": "Close Menu",
+    "androidBar": "Mobile Navigation"
+  },
+  "languages": {
+    "selector": "Select Language",
+    "en": "English",
+    "zhTW": "繁體中文",
+    "nanTW": "台灣台語"
+  },
+  "actions": {
+    "search": "Search",
+    "filter": "Filter",
+    "submit": "Submit Application",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "viewDetails": "View Details",
+    "export": "Export Data",
+    "refresh": "Refresh",
+    "copy": "Copy to Clipboard",
+    "copied": "Copied successfully",
+    "verify": "Verify Now",
+    "generateProof": "Generate ZKP Proof",
+    "requestCredential": "Request Credential",
+    "reset": "Reset Form",
+    "back": "Go Back"
+  },
+  "status": {
+    "active": "Active",
+    "verified": "Verified",
+    "pending": "Pending Verification",
+    "revoked": "Revoked",
+    "expired": "Expired",
+    "valid": "Cryptographically Valid",
+    "success": "Success",
+    "failed": "Failed",
+    "processing": "Processing..."
+  },
+  "notifications": {
+    "languageChanged": "Interface language updated to English.",
+    "proofGenerated": "Zero-Knowledge Proof created successfully.",
+    "proofVerified": "Cryptographic zero-knowledge verification succeeded.",
+    "formSaved": "Identity information saved to local secure enclave.",
+    "credentialIssued": "New verifiable credential issued successfully.",
+    "householdMoved": "Household transfer application submitted to Civil Affairs Bureau."
+  },
+  "terms": {
+    "digitalIdentity": "Digital Identity",
+    "householdRegistration": "Household Registration",
+    "verifiableCredentials": "Verifiable Credentials",
+    "identityVerification": "Identity Verification",
+    "privacyProtection": "Privacy Protection",
+    "zeroKnowledgeProof": "Zero-Knowledge Proof",
+    "governmentOrganization": "Government Organization",
+    "decentralizedIdentifier": "Decentralized Identifier (DID)",
+    "publicLedger": "National Trust Registry",
+    "selectiveDisclosure": "Selective Disclosure"
+  },
+  "footer": {
+    "copyright": "© 2026 Taiwan Resident Network System. All rights reserved.",
+    "compliance": "Compliant with Taiwan Electronic Signatures Act & Personal Data Protection Act.",
+    "version": "Release v4.2 · Zero-Knowledge Cryptographic Engine"
+  },
+  "sidebar": {
+    "dockLeft": "Dock Left",
+    "dockRight": "Dock Right",
+    "dragToDock": "Drag sidebar to dock Left or Right",
+    "swapPosition": "Swap sidebar position (Left ⇄ Right)",
+    "reorder": "reorder",
+    "dragToReorder": "Drag to reorder",
+    "dropLeft": "Drop here to dock Left",
+    "dropRight": "Drop here to dock Right",
+    "subtitles": {
+      "dashboard": "Real-time Metrics & State",
+      "identity": "Decentralized DID & Profile",
+      "household": "Certified Household Registry",
+      "credentials": "W3C VC Cryptographic Wallet",
+      "verification": "Groth16 Zero-Knowledge Prover",
+      "admin": "Consensus Nodes & Audit Trail",
+      "settings": "Languages, Keys & Security",
+      "qa": "Tri-Language Parity & Checks"
+    }
+  }
+}
